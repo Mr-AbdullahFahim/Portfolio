@@ -45,7 +45,7 @@ export default function Navbar({ open = () => {} }) {
                         <button onClick={() => navigate("Contactus")}>Contact Us</button>
                     </div>
                     <a
-                        href="Abdullah-FullstackDevelopmentIntership.pdf"
+                        href="./Abdullah-FullstackDevelopmentIntership.pdf"
                         download="AbdullahFahim_CV.pdf"
                         className="text-sm px-3 py-2 bg-[#F42A0F] rounded-lg text-white items-center flex gap-2 hover:brightness-90"
                     >

@@ -24,7 +24,7 @@ export default function Home() {
             <div className="relative">
               <p className="uppercase col-span-1 grid bottom-0 absolute">-Hello!</p>
               <div className="grid items-end justify-self-center overflow-hidden md:h-96 h-64 translate-x-10 lg:hidden col-span-3">
-                <img src="Abdullah.png" alt="profile picture" className="md:w-[420px] w-[300px]"/>
+                <img src="./Abdullah.png" alt="profile picture" className="md:w-[420px] w-[300px]"/>
               </div>
             </div>
             <h1 className="md:text-5xl text-3xl font-extrabold uppercase w-fit">I'm <span className="text-[#F42A0F]">Abdullah</span> Fahim</h1>
@@ -41,8 +41,8 @@ export default function Home() {
       <section id="Portfolio" className="lg:h-screen mx-auto pt-20 uppercase">
         <Sectiontitle coloredtitle="Portfolio" title="of work"/>
         <div className="grid lg:grid-cols-2 mx-auto pt-20 lg:gap-20 gap-10">
-          <ButtonCard url="web button.png" alt="Web portfolio Button Icon" title="Web Development Projects" path="webportfolio"/>
-          <ButtonCard url="design button.png" alt="Design portfolio Button Icon" title="Graphic Design Works" path="designportfolio"/>
+          <ButtonCard url="./web button.png" alt="Web portfolio Button Icon" title="Web Development Projects" path="webportfolio"/>
+          <ButtonCard url="./design button.png" alt="Design portfolio Button Icon" title="Graphic Design Works" path="designportfolio"/>
         </div>
       </section>
       <section id="Experience" className="h-screen mx-auto gap-10 pt-20 w-full mb-40">

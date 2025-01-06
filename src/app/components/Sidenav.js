@@ -47,7 +47,7 @@ export default function Sidenav({ open }) {
                     <div>Contact Us</div>
                 </button>
                 <a
-                    href="Abdullah-FullstackDevelopmentIntership.pdf"
+                    href="./Abdullah-FullstackDevelopmentIntership.pdf"
                     download="AbdullahFahim_CV.pdf"
                     className="text-sm px-3 py-2 bg-[#F42A0F] rounded-lg text-white hover:brightness-90"
                 >
