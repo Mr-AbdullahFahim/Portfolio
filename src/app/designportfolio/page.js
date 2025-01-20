@@ -11,7 +11,7 @@ export default function Designportfolio(){
     return(
         <div>
             <div className="w-full flex justify-start items-center px-16 py-6 border-b-[1px] border-gray-800">
-                <a href=".." className="hover:opacity-75 flex justify-start items-center gap-2">
+                <a href="./../Portfolio" className="hover:opacity-75 flex justify-start items-center gap-2">
                     <FontAwesomeIcon icon="fa-solid fa-chevron-left" className="w-3" /><span className="font-semibold">Back</span>
                 </a>
             </div>
