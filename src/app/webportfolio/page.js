@@ -4,6 +4,7 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import PortfolioCard from "../components/PortfolioCard";
+import Link from "next/link";
 
 library.add(fas, far, fab);
 
@@ -11,9 +12,9 @@ export default function Webportfolio(){
     return(
         <div>
             <div className="w-full flex justify-start items-center px-16 py-6 border-b-[1px] border-gray-800">
-                <a href="./.." className="hover:opacity-75 flex justify-start items-center gap-2">
+                <Link href="./.." className="hover:opacity-75 flex justify-start items-center gap-2">
                     <FontAwesomeIcon icon="fa-solid fa-chevron-left" className="w-3" /><span className="font-semibold">Back</span>
-                </a>
+                </Link>
             </div>
             <section className="grid lg:grid-cols-2 gap-5 w-5/6 mx-auto pt-9 pb-20">
                 <PortfolioCard title="Alumni Networking and Research Article Platform" description="As a Full Stack Developer, I created a Platform using Laravel to connect alumni, students, and lecturers. The platform features secure authentication and role-based access control, ensuring tailored experiences for each user type. I designed a responsive interface with Tailwind CSS to ensure accessibility across devices. Key functionalities include a research article module for uploading and managing articles, a job posting module for sharing jobs and internships, and real-time messaging powered by Chatify and Pusher to facilitate communication. The development process was efficiently managed with Git for version control." link="https://github.com/Mr-AbdullahFahim" />

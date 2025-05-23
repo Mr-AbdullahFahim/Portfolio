@@ -5,6 +5,7 @@ import Contactus from "./components/Contactus";
 import Navbar from "./components/Navbar";
 import Sectiontitle from "./components/Sectiontitle";
 import Sidenav from "./components/Sidenav";
+import Image from "next/image";
 
 export default function Home() {
   const navigate = (path) => {
